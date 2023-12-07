@@ -1,0 +1,98 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color:  #333;
+    text-align: center;
+    padding: 40px 0;
+}
+
+main {
+    padding: 20px;
+    background-color: rgb(20, 183, 220);
+}
+
+.features {
+    margin-bottom: 40px;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+.cta {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color:whitesmoke;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+section#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  section#contact input, section#contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  section#contact button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+  .main{
+    position: relative;
+    background-color: rgb(234, 181, 255);
+    height: 500px;
+       width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border: 5px solid rgb(114, 111, 255);
+    border-radius: 20px;
+}
+.main p{
+    /* background-color: white; */
+    position: relative;
+    top: 30%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(160, 0, 0);
+}
